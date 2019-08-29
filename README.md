@@ -1,1 +1,1 @@
-This is an App that help a kitchen manager tarck food stuffs usage
+This is an App that help a kitchen manager track food stuffs usage
