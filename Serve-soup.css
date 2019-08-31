@@ -69,7 +69,7 @@ form {
     border: 1px solid #ccc;
     font-size: 1.5rem;
     align-items: center;
-    margin-bottom: 
+    box-shadow: 5px 10px #888888
   }
   form div {
     margin-top: 1em;
@@ -117,6 +117,21 @@ form {
   border-radius: 10px;
   margin: 1rem 0;
 }
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-div{
+  width: 48%;
+  margin: 0 0.5rem 1rem 0.3rem;
+  border-bottom: 2px dashed gray;
+}
+
+.about-div button{
+  margin-left: 50%;
+}
   
 button{
 	background:#90EE90;
@@ -135,6 +150,7 @@ button:hover, #edit:hover{
 
 .inventory-form{
     display: flex;
+    
 }
 
 #get-started{
@@ -154,34 +170,12 @@ button:hover, #edit:hover{
     color:black;
 }
 
-.column {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
 .home-div {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 .home-div:nth-child(even) {
-  background-color: #dddddd;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
   background-color: #dddddd;
 }
 
@@ -235,7 +229,7 @@ footer {
 
   .top-div{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-between;
   }
 
